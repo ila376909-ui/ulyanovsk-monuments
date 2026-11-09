@@ -1,0 +1,35 @@
+.monument-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.monument-image {
+  width: 70px;
+  max-width: 70px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.monument-content {
+  padding: 12px;
+}
+
+.monument-title {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.monument-description {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.35;
+}
