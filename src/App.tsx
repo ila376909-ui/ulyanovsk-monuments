@@ -11,7 +11,7 @@ interface IMonument {
   image: string;
 }
 
-const monuments: IMonument = [
+const monuments: IMonument []= [
   {
     id: 1,
     title: 'Памятник А. С. Пушкину в Симбирске, 1833 год',
